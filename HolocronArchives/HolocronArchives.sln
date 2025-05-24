@@ -1,13 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36109.1 d17.14
+VisualStudioVersion = 17.14.36109.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolocronArchives.Frontend", "..\Frontend\HolocronArchives.Frontend\HolocronArchives.Frontend\HolocronArchives.Frontend.csproj", "{B9FCE319-5BD3-2B6B-8DB5-E69D936CDCE2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolocronArchives.Backend", "..\Backend\HolocronArchives.Backend\HolocronArchives.Backend\HolocronArchives.Backend.csproj", "{E0B8D422-DA1F-6CC6-F5D7-CB82F5B29B4B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AI", "AI", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		AI\Roadmap.md = AI\Roadmap.md
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{9CB1809A-00B8-49D4-885E-502FC0FDF46D}"
 EndProject

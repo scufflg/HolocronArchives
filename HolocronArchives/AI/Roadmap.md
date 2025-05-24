@@ -65,19 +65,7 @@ Star Wars Book Readers, collectors, and enthusiasts who want to explore the time
     -   [ ] Consider a Blazor component library like MudBlazor, Blazorise, or Radzen Blazor Components to speed up UI development.
 
 ### Database
--   **Primary Choice:** SQLite (Simple, file-based, good for development and smaller applications)
--   **Other Free Options to Consider:**
-    -   **PostgreSQL:**
-        -   *Pros:* Powerful, open-source, feature-rich (JSONB, full-text search, extensibility), robust, and scalable. Widely used and well-supported by Entity Framework Core.
-        -   *Cons:* Requires a separate server setup and management (though free cloud hosting tiers are available from providers like Heroku, ElephantSQL, or AWS RDS Free Tier).
-    -   **MySQL:**
-        -   *Pros:* Popular open-source RDBMS, widely used, good performance, and well-supported by Entity Framework Core.
-        -   *Cons:* Similar to PostgreSQL, requires a separate server setup and management (free cloud hosting tiers are also available).
-    -   **SQL Server Express Edition:**
-        -   *Pros:* Free edition of Microsoft's SQL Server, good integration with the .NET ecosystem, robust features.
-        -   *Cons:* Limitations on database size (10GB), memory, and CPU usage compared to paid versions. Primarily Windows-based, though Linux support exists.
-
-    **Recommendation:** Start with SQLite for ease of development. If scalability, concurrent user load, or advanced database features become a significant concern, migrating to PostgreSQL or MySQL would be logical next steps. Both offer robust free tiers on various cloud platforms if you don't want to manage your own server.
+-   SQLite (Simple, file-based, good for development and smaller applications)
 
 ## Milestones
 - [ ] **M1: Project Setup & Core Backend (Date: TBD)**
